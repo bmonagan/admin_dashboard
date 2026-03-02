@@ -1,3 +1,6 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
@@ -12,7 +15,7 @@ body, html {
 }
 .body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: system-ui, "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -23,15 +26,18 @@ body, html {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto;
+
 }
 .dashboard {
     background-color: var(--primary-color);
     color: var(--light-text-color);
     display: grid;
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
     grid-column: 1/2;
-    grid-row: 1 / -1;
-    width: 100%;
-    height: 100%;
+    grid-row: 1 / 6;
 }
 .dashboard button {
     background-color: transparent;
