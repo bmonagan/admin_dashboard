@@ -36,8 +36,12 @@ body, html {
     border: none;
     color: var(--light-text-color);
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 12px 8px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
 }
 .dashboard .logo-area {
     display: flex;
@@ -52,29 +56,33 @@ body, html {
 .dashboard .main-menu {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+}
+.dashboard .secondary-menu {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: left;
     margin-top: 20px;
 }
 
-
 .dashboard button img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
     display: inline-block;
+    flex-shrink: 0;
 }
 
 .dashboard button span {
     vertical-align: middle;
 }
 
-
 .header button img {
     width: 28px;
     height: 28px;
 }
 
-/* Sub-header left column image */
 .sub-header .left-column img {
     width: 60px;
     height: 60px;
