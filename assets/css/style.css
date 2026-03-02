@@ -52,6 +52,7 @@ body, html {
 .dashboard .logo-area img {
     width: 50px;
     height: 50px;
+    filter: brightness(0) invert(1);
 }
 .dashboard .main-menu {
     display: flex;
@@ -72,6 +73,7 @@ body, html {
     margin-right: 12px;
     display: inline-block;
     flex-shrink: 0;
+    filter: brightness(0) invert(1);
 }
 
 .dashboard button span {
@@ -81,6 +83,7 @@ body, html {
 .header button img {
     width: 28px;
     height: 28px;
+    filter: brightness(0) invert(1);
 }
 
 .sub-header .left-column img {
@@ -103,6 +106,7 @@ body, html {
     height: 24px;
     cursor: pointer;
     margin-right: 15px;
+    filter: brightness(0) invert(1);
 }
 
 .trending-card img {
