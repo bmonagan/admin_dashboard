@@ -14,3 +14,10 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+.dashboard {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1 / -1;
+}
