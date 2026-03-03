@@ -375,7 +375,7 @@ body, html {
     padding: 20px;
     
 
-    background-color: yellowgreen;
+    background-color: var(--secondary-background);
 }
 .trending .label h1 {
     margin: 0;
