@@ -409,5 +409,28 @@ body, html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
+}
+.trending .trending-card .trending-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 2px;
+}
+.trending .trending-card .trending-info p {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.4;
+}
+.trending .trending-card .trending-info p:first-child {
+    font-weight: 700;
+}
+.trending .trending-card .trending-info p:last-child {
+    color: #666;
+}
+.trending img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
