@@ -318,6 +318,14 @@ body, html {
 
     background-color: yellow;
 }
+.announcement-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 15px;
+}
 
 /* Trending */
 .trending {
