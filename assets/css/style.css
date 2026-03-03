@@ -159,6 +159,7 @@ body, html {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+    background-color: orange;
 }
 
 .project-card .functions img {
@@ -167,4 +168,30 @@ body, html {
     cursor: pointer;
     margin-right: 15px;
     filter: brightness(0) invert(1);
+}
+
+/* Announcements */
+.announcements {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+
+    background-color: yellow;
+}
+
+/* Trending */
+.trending {
+    grid-row: 4 / 6;
+    grid-column: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+
+    background-color: yellowgreen;
 }
