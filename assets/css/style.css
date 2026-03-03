@@ -166,12 +166,9 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: var(--testing-background);
+    background-color: var(--background-color);
     color: var(--text-color);
 
-    border: #0fac31;
-    border-width: 1px;
-    border-style: solid;
 }
 .sub-header .left-column {
     display: flex;
@@ -180,12 +177,25 @@ body, html {
     gap: 15px;
     width: 65%;
 }
+.sub-header .left-column .welcome-message {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
 
 .sub-header .left-column img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+}
+.sub-header .left-column h1 {
+    font-size: 30px;
+    margin: 0;
+}
+.sub-header .left-column h2 {
+    font-size: 18px;
+    margin: 0;
 }
 .sub-header .right-column {
     width: 35%;
@@ -196,6 +206,7 @@ body, html {
 }
 .sub-header .right-column button {
     font-size: 30px;
+    border: none;
     color: var(--light-text-color);
     padding: 12px 60px;
     background: var(--primary-color);
