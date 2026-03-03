@@ -273,14 +273,20 @@ body, html {
     padding-left: 32px;
     box-shadow: var(--highlight);
 }
-.projects .project-header {
-    font-size: 24px;
-    font-weight: bold;
+.projects .project-header,
+.announcements .label {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 12px 8px;
+    margin: 0;
+    padding: 0 8px;
+}
 
+.projects .project-header h2,
+.announcements .label h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
 }
 .project-card .title {
     font-size: 36px;
