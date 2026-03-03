@@ -265,6 +265,16 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 15px;
+    padding: 24px;
+    padding-top: 48px;
+    padding-left: 32px;
+    box-shadow: var(--highlight);
+}
+.project-card .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
 }
 .project-card .functions {
     display: flex;
@@ -274,8 +284,8 @@ body, html {
 }
 
 .project-card .functions img {
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     cursor: pointer;
     margin-right: 15px;
     filter: none;
