@@ -316,7 +316,7 @@ body, html {
     padding: 20px;
     
 
-    background-color: yellow;
+    background-color: var(--secondary-background);
 }
 .announcement-feed {
     display: flex;
