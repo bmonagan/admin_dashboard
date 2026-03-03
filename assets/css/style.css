@@ -50,7 +50,7 @@ body, html {
     border: none;
     color: var(--light-text-color);
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bold; 
     padding: 12px 8px;
     cursor: pointer;
     display: flex;
@@ -64,22 +64,27 @@ body, html {
     justify-content: left;
     align-items: center;
     align-self: flex-start;
+    gap: 24px;
     margin: 0;
+    margin-bottom: 48px;
     font-size: 16px;
+
 }
 
 .dashboard .logo-area h1 {
     margin: 0;
+    font-size: 64px;
 }
 .dashboard .logo-area img {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     filter: brightness(0) invert(1);
 }
 .dashboard .main-menu {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 48px;
 }
 .dashboard .secondary-menu {
     display: flex;
