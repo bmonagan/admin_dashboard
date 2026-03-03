@@ -314,17 +314,30 @@ body, html {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    
-
     background-color: var(--secondary-background);
 }
 .announcement-feed {
     display: flex;
+    width: 80%;
+    height: 90%;
     flex-direction: column;
     gap: 20px;
     background-color: var(--background-color);
     padding: 20px;
+    padding-top: 36px;
     border-radius: 15px;
+    justify-content: space-between;
+}
+.announcement-feed .announcement {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+.announcement-feed .announcement .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
 }
 
 /* Trending */
