@@ -4,7 +4,7 @@
 :root {
     --primary-color: #3498db;
     --background-color: #ffffff;
-    --secondary-background: #c3cad4;
+    --secondary-background: #c3cad493;
     --testing-background: #fc7df5;
     --highlight: #dcdf42;
     --text-color: #333333;
@@ -105,26 +105,26 @@ body, html {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: var(--testing-background);
+    background-color: var(--background-color);
     color: var(--text-color);
 }
 .header .search {
     width: 65%;
     display: flex;
     align-items: center;
-        background-color: var(--background-color);
+    background-color: var(--background-color);
     padding: 8px 12px;
     border-radius: 4px;
 }
 .header .search input {
-    width: 200%;
+    width: 115%;
     border: none;
     outline: none;
     font-size: 42px;
     border-radius: 15px;
     padding: 6px 6px;
     margin-left: 8px;
-        background-color: var(--secondary-background);
+    background-color: var(--secondary-background);
 }
 .header .profile {
     width: 35%;
