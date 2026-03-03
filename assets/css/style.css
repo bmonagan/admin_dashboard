@@ -260,13 +260,25 @@ body, html {
     align-content: stretch;
     gap: 20px;
 }
+.project-card {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-card .functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 12px;
+}
 
 .project-card .functions img {
     width: 24px;
     height: 24px;
     cursor: pointer;
     margin-right: 15px;
-    filter: brightness(0) invert(1);
+    filter: none;
 }
 
 /* Announcements */
