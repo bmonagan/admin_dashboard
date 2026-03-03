@@ -26,7 +26,7 @@ body, html {
     min-height: 100vh;
     padding: 0;
     display: grid;
-    grid-template-columns: minmax(220px, 1fr) 2fr 1fr;
+    grid-template-columns: minmax(220px, 1fr) minmax(440px, 2fr) minmax(220px,1fr);
     grid-template-rows: .25fr .5fr 1fr 1fr 1fr 1fr; 
 
 }
