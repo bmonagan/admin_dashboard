@@ -107,6 +107,19 @@ body, html {
     background-color: var(--testing-background);
     color: var(--text-color);
 }
+.header .search {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    background-color: ;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.header .profile {
+    width: 35%;
+    display: flex;
+
+}
 
 .header .search img {
     width: 20px;
