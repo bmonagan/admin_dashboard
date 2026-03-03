@@ -249,7 +249,7 @@ body, html {
     min-height: 0;
     gap: 20px;
     padding: 20px;
-    background-color: var(--highlight);
+    background-color: var(--secondary-background);
 }
 .project-cards {
     display: grid;
@@ -272,6 +272,12 @@ body, html {
     padding-top: 48px;
     padding-left: 32px;
     box-shadow: var(--highlight);
+}
+.projects .project-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 .project-card .title {
     font-size: 36px;
