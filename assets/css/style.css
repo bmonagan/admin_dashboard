@@ -274,10 +274,13 @@ body, html {
     box-shadow: var(--highlight);
 }
 .projects .project-header {
+    font-size: 24px;
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    margin: 12px 8px;
+
 }
 .project-card .title {
     font-size: 36px;
