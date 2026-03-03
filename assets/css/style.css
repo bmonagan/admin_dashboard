@@ -126,15 +126,18 @@ body, html {
     color: var(--text-color);
 }
 .header .search {
-    width: 80%;
+    flex: 1;
     display: flex;
     align-items: center;
     background-color: var(--background-color);
     padding: 8px 12px;
     border-radius: 4px;
 }
+.header .search form {
+    flex: 1;
+}
 .header .search input {
-    width: placeholder;
+    width: 100%;
     overflow: hidden;
     border: none;
     outline: none;
@@ -145,11 +148,13 @@ body, html {
     background-color: var(--secondary-background);
 }
 .header .profile {
-    width: 20%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px;
     margin-right: 20px;
-
+    flex-shrink: 0;
+    min-width: 30%;
 }
 
 .header .profile button {
