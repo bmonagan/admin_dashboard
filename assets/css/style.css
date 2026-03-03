@@ -274,20 +274,7 @@ body, html {
     box-shadow: var(--highlight);
 }
 .projects .project-header,
-.announcements .label {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0 8px;
-}
 
-.projects .project-header h2,
-.announcements .label h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1.2;
-}
 .project-card .title {
     font-size: 36px;
     font-weight: bold;
@@ -333,6 +320,20 @@ body, html {
     padding-top: 36px;
     border-radius: 15px;
     justify-content: space-between;
+}
+.announcements .label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 8px;
+}
+
+.projects .project-header h2,
+.announcements .label h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
 }
 .announcement-feed .announcement {
     display: flex;
